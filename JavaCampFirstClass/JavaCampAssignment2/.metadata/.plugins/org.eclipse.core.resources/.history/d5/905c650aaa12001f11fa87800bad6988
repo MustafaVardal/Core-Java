@@ -1,0 +1,19 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		
+		final int numberStudent = 10;
+		int visitorCount = 125;
+		String smessage = "Student Count: ";
+	
+		
+		System.out.println(message + numberStudent);
+		System.out.println();
+		System.out.println(message + visitorCount);
+		System.out.println();
+		System.out.println("Student Count : ");
+
+	}
+
+}

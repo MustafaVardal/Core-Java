@@ -1,0 +1,20 @@
+
+public class WhileLoop {
+	public static void main(String[] args) {
+	/*	
+		int i = 0;
+		
+		while (i < 10) {
+			System.out.println(i);
+		}
+		
+		System.out.println("While Loops is over.");
+	} // infinite loop */
+		
+		int i = 0;
+		while(i <10) {
+			System.out.println(i);
+			i++;
+		}
+		}
+}

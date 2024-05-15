@@ -1,0 +1,61 @@
+
+public class WebsiteConditionalClause {
+
+	public static void main(String[] args) {
+		// Website :  trendyol.com
+		// find a reasonable example 
+		// for if-else condition, switch-case, for, while.
+		/*
+		String catchword = "Buy more pay less";
+		String catchword1 = "Buy 3 get 1 free";
+		String p1 = "Hair clip";
+		String p2 = "Tshirt";
+		String pName = "Tshirt";
+		double pPrice = 99.90;
+		double pPrice1 = 300.00;
+		
+		if (pName.equals(p1)) {
+			System.out.println(catchword);
+			System.out.println(p1 +" : "+" Price " + pPrice);
+		} else if (pName.equals(p2)) {
+			System.out.println(catchword1);
+			System.out.println(p2 +" : " + " Price " + pPrice1);
+		}
+		*/
+		
+		String[] selection = {"Woman", "Man", "Mom & Kid", 
+				"Home & Life", "Supermarket", 
+				"Cosmetic", "Technologic"};
+		
+		for (int i = 0; i < selection.length; i++) {
+			
+			System.out.println(selection[i]);
+			
+			
+		}
+		
+		
+	System.out.println(" ");
+	
+		int selectedItem = 1;
+		switch (selectedItem) {
+		case 1:
+			System.out.println("Dress");
+				System.out.println("\t Summer Dress");
+				System.out.println("\t Winter Dress");
+			break;
+		case 2 :
+			System.out.println("Shoes");
+				System.out.println("Booth");
+				System.out.print("Vans");
+		default:
+			break;
+		}
+		
+		
+		
+		
+		
+	}
+
+}

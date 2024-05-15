@@ -1,0 +1,23 @@
+
+public class Vowels {
+
+	public static void main(String[] args) {
+		char letter = 'B';
+		
+		
+		switch (letter) {
+		case 'A' :
+		case 'E' :
+		case 'I' :
+		case 'O' :
+		case 'U' :
+			System.out.println(letter + " is a vowel.");
+			break;
+		default:
+			System.out.println(letter + " is not a vowel");
+			break;
+		}
+
+	}
+
+}

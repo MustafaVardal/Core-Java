@@ -1,0 +1,15 @@
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		String company1 = "Apple";
+		String company2 = "Windows";
+		String company3 = "Samsung";
+		
+		System.out.println(company1);
+		System.out.println(company2);
+		System.out.println(company3);
+		
+	}
+
+}

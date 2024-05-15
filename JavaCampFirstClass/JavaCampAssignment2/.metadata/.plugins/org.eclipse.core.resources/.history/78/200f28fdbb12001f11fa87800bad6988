@@ -1,0 +1,15 @@
+
+public class MiniProjectPrimeNumbers {
+
+	public static void main(String[] args) {
+		
+		int number = 25;
+		
+		if (number % number ==0 && number / 1 ==0) {
+			System.out.println("Number is prime.");
+		} else {
+			System.out.println("Number is not prime.");
+		}
+	}
+
+}

@@ -1,0 +1,27 @@
+
+public class WebsiteConditionalClause {
+
+	public static void main(String[] args) {
+		//	website Trendyol 
+		// find a reasonable example 
+		// for if-else condition, switch-case, for, while.
+		
+		String catchword = "Buy more pay less";
+		String catchword1 = "Buy 3 get 1 free";
+		String p1 = "hair clip";
+		String p2 = "Tshirt";
+		String pName = "Tshirt";
+		double pPrice = 99.90;
+		double pPrice1 = 300.00;
+		
+		if (pName.equals(p1)) {
+			System.out.println(catchword);
+			System.out.println(" Price " + pPrice);
+		} else if (pName.equals(p2)) {
+			System.out.println(catchword1);
+			System.out.println(p2+" : " + " Price " + pPrice1);
+		}
+		
+	}
+
+}

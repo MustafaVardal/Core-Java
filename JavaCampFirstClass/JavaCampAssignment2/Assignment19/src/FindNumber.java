@@ -1,0 +1,20 @@
+
+public class FindNumber {
+	public static void main(String[] args) {
+		int[] numbers = new int[] { 1, 2, 5, 7, 9, 0 };
+		int search = 3;
+		boolean isYes = false;
+
+		for (int i : numbers) {
+			if (i == search) {
+				isYes = true;
+				break;
+			}
+		}
+		if (isYes) {
+			System.out.println("Searching number is in our list : " + search);
+		} else {
+			System.out.println("Searching number is not in our list : " + search);
+		}
+	}
+}

@@ -1,0 +1,15 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		
+		final int numberStudent = 10;
+		
+		System.out.println("Student Count : " + numberStudent);
+		System.out.println();
+		System.out.println("Student Count : ");
+		System.out.println("Student Count : ");
+
+	}
+
+}

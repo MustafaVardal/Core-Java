@@ -1,0 +1,12 @@
+
+public class WorkStrings2 {
+	public static void main(String[] args) {
+		
+		String message = " A page is starting with Java word.";
+		String newMessage = message.replace(' ', '-');
+		System.out.println(newMessage);
+		System.out.println(message);
+		System.out.println(message.substring(2));
+		System.out.println(message.substring(0, 10));
+	}
+}

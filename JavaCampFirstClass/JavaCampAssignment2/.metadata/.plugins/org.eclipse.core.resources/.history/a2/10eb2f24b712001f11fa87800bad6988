@@ -1,0 +1,11 @@
+
+public class WorkStrings {
+
+	public static void main(String[] args) {
+		String message ="What a beatiful day.";
+		
+		System.out.println(message);
+
+	}
+
+}

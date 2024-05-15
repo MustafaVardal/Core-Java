@@ -1,0 +1,19 @@
+
+public class FindNumber {
+	public static void main(String[] args) {
+		int[] numbers = new int[] { 1, 2, 5, 7, 9, 0 };
+		int search = 3;
+		boolean isYes = false;
+
+		for (int i : numbers) {
+			if (i == search) {
+				isYes = true;
+			}
+		}
+		if(isYes) {
+			System.out.println("Searching number is : " + search);
+		} else {
+			System.out.println("Searching number is not our list : " + search);
+		}
+	}
+}

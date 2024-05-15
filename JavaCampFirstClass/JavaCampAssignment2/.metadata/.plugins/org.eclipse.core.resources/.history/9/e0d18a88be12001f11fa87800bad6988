@@ -1,0 +1,20 @@
+
+public class MiniProjectPrimeNumbers {
+
+	public static void main(String[] args) {
+		
+		int number = 49;
+
+		int remainder = number % 2;
+		System.out.println(remainder);
+		boolean isPrime = true; // Assume that our number is prime!
+		
+		
+		for(int i = 2; i < number; i++) {
+			if(number % i == 0) {
+				isPrime = false;
+			}
+		}
+	}
+
+}

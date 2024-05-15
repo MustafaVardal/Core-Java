@@ -1,0 +1,27 @@
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		
+		/*
+		String company1 = "Apple";
+		String company2 = "Windows";
+		String company3 = "Samsung";
+		// We have a rule for that. Do not repeat yourself for clean code.
+		System.out.println(company1);
+		System.out.println(company2);
+		System.out.println(company3);*/
+		
+		
+		String[] companies = new String[3];
+		companies[0] = "Apple";
+		companies[1] = "Windows";
+		companies[2] = "Samsung";
+		
+		for(int i =0; i < companies.length; i++) {
+			System.out.println(companies[i]);
+		}
+		
+	}
+
+}

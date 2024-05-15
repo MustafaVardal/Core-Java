@@ -1,0 +1,16 @@
+
+public class IfCondition {
+
+	public static void main(String[] args) {
+		double netProfit = 122000.00;
+		if(netProfit < 125000.00) {
+			System.out.println("You made loss.");
+		}
+		
+		if(netProfit < 123000.00) {
+			System.out.println("You made more loss.");
+		}
+
+	}
+
+}

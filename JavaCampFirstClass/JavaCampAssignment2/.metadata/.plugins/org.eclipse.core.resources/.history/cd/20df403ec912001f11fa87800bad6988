@@ -1,0 +1,7 @@
+
+public class DunbarsNumber {
+	public static void main(String[] args) {
+		// Minimum two dunbar's numbers are 220 - 284.
+		// Means
+	}
+}

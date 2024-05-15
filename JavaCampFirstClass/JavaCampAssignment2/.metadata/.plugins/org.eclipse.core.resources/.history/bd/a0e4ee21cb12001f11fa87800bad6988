@@ -1,0 +1,14 @@
+
+public class FindNumber {
+ public static void main(String[] args) {
+	int[] numbers = new int[] {1,2,5,7,9,0};
+	int search = 5;
+	
+	
+	for (int i : numbers) {
+		if(i == search) {
+			System.out.println("Searching number is : " + i);
+		}
+	}
+}
+}
