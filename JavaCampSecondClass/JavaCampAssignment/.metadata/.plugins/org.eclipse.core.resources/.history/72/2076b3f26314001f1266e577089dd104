@@ -1,0 +1,19 @@
+package classesWtihAtrributes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Product product = new Product();
+		product.id = 123;
+		product.name = "Airfrier";
+		product.description = "Fry your potatoes.";
+		product.price = 69.99;
+		product.inStock = 5;
+		
+		System.out.println(product.id + "\t" + product.name + "\t" +product.description + "\t" + product.price + "\t" +product.inStock);
+		
+		
+	}
+
+}

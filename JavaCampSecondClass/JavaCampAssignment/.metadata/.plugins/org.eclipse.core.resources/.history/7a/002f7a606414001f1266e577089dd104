@@ -1,0 +1,8 @@
+package classesWtihAtrributes;
+
+public class ProductManager {
+	public void add(Product product) {
+		//JDBC codes will be here.
+		System.out.println("Item added.");
+	}
+}

@@ -1,0 +1,31 @@
+package classes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CustomerManager customerManager = new		 CustomerManager();
+	//		I				I			   I				I
+	// REFERENCE TYPE | VARIABLE NAME  | METHOD	| DECLARE IN MEMORY (RAM).
+	// DECLARED LEFT HAND IN STACK 		=	DECLARED RIGHT HAND IN HEAP	
+	// EXAMPLE:
+	// ASSUME THAT LEFTHAND IN STACK IT WILL TAKE 101 REFERENCE NUMBER IN STACK....
+	// ON THE OTHERHAND IN THE RIGHT HAND, IT WILL DECLARE EMPTY AREA IN HEAP FOR DATA INFOS.
+	// Let's declare another CustomerManager.
+		CustomerManager customerManager2 = new CustomerManager(); // 102 area.
+	// Then we will transfer our stack which we hold on place such as 101. it will go 102 and 101 will be empty on stack area.
+	
+		customerManager = customerManager2;
+		// all infos in 102.
+		
+		// setter
+		customerManager.setName("James");
+
+		// getters
+		customerManager.add();
+		customerManager.delete();
+		customerManager.update();
+		System.out.println(customerManager.getName());
+
+	}
+
+}

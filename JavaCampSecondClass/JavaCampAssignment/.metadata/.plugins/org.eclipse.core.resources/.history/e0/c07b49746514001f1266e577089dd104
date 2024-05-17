@@ -1,0 +1,12 @@
+package classesWtihAtrributes;
+
+public class Product {
+	// attributes or fields.
+	int id;
+	String name;
+	String description;
+	double price;
+	int inStock;
+	
+	
+}

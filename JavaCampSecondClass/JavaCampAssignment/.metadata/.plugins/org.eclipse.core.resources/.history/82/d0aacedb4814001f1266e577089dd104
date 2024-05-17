@@ -1,0 +1,36 @@
+package methods2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String message = "Today have good day living outside.";
+		String newMessage = message.substring(0, 2);
+		String newMessage2 = giveCity().substring(0,3);
+		// --- if you did not assign anywhere it is not showing us.
+		// --- substring will return something not showing something.
+
+		System.out.println(newMessage);
+		System.out.println(newMessage2);
+	}
+
+	public static void add() { // void --- > Order or command.
+		System.out.println("Added.");
+	}
+
+	public static void delete() {
+		System.out.println("Deleted.");
+
+	}
+
+	public static void update() {
+		System.out.println("Updated.");
+	}
+	
+	public static int collect() {
+		return 5;
+	}
+	
+	public static String giveCity() {
+		return "Columbus";
+	}
+}

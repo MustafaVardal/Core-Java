@@ -1,0 +1,9 @@
+package inheritanceDemo;
+
+public class CreditUI {
+	public void CreditCalculate(InstructorCreditManager instructorCreditManager) {
+		// all front end developers work here.
+		// like button, text etc.
+	}
+
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="classes.CustomerManager"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="reCapDemo_Classes.Calculator"/>
+    <fullyQualifiedTypeName name="classesWtihAtrributes.Product"/>
+    <fullyQualifiedTypeName name="classesWtihAtrributes.ProductManager"/>
+    <fullyQualifiedTypeName name="classesWithAtrributes.ProductManager"/>
+    <fullyQualifiedTypeName name="methodOverloading.Calculator"/>
+    <fullyQualifiedTypeName name="inheritance.Customer"/>
+    <fullyQualifiedTypeName name="inheritance.Employee"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="inheritance.PersonManager"/>
+    <fullyQualifiedTypeName name="inheritance.CustomerManager"/>
+    <fullyQualifiedTypeName name="inheritance.EmployeeManager"/>
+    <fullyQualifiedTypeName name="inheritanceDemo.AgriculturalCreditManager"/>
+    <fullyQualifiedTypeName name="java.lang.InstantiationError"/>
+    <fullyQualifiedTypeName name="inheritanceDemo.CreditUI"/>
+    <fullyQualifiedTypeName name="inheritanceDemo.InstructorCreditManager"/>
+    <fullyQualifiedTypeName name="inheritanceDemo.BaseCreditManager"/>
+</qualifiedTypeNameHistroy>

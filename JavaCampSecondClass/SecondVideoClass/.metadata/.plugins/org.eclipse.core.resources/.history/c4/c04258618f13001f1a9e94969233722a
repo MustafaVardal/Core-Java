@@ -1,0 +1,20 @@
+package oop1;
+
+public class Main {
+	public static void main(String[] args) {
+		// String message = "Price ratio: ";
+
+		Product product = new Product();
+		product.name= "Eureka WhirlWind Bagless Canister 2.5L Vacuum Cleaner";
+		product.productId = "123456";
+		product.unitPrice = 69.99;
+		product.year = 2024;
+		product.rating = 4.7;
+		product.unitsInStock = 100;
+		product.discount= 17.00;
+		product.imageUrls = "EurekaWhirlWind.svg";
+		System.out.println("Name: " + product.name + "\nProduct Id: " + product.productId +
+				"\nPrice: " + product.unitPrice + "\nRating: " + product.rating +
+				"\nDiscount: " + product.discount);
+	}
+}

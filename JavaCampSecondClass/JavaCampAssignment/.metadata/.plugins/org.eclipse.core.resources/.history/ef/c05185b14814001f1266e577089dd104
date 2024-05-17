@@ -1,0 +1,26 @@
+package methods2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String message = "Today have good day living outside.";
+		String newMessage = message.substring(0, 2); 
+		// --- if you did not assign anywhere it is not showing us.
+		// --- substring will return something not showing somethng.
+
+		System.out.println(newMessage);
+	}
+
+	public static void add() { // void --- > Order or command.
+		System.out.println("Added.");
+	}
+
+	public static void delete() {
+		System.out.println("Deleted.");
+
+	}
+
+	public static void update() {
+		System.out.println("Updated.");
+	}
+}

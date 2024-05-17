@@ -1,0 +1,10 @@
+INDEX VERSION 1.134+C:\Users\Mustafa\OneDrive\Desktop\Core Java\JavaCampSecondClass\JavaCampAssignment\.metadata\.plugins\org.eclipse.jdt.core
+461061682.index
+2888110583.index
+966851747.index
+1865797976.index
+858178207.index
+98802120.index
+2104893808.index
+1888937284.index
+4163541083.index

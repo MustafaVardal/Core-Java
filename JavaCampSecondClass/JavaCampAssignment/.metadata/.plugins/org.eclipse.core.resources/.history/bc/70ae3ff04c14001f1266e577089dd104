@@ -1,0 +1,17 @@
+package classes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CustomerManager customerManager = new CustomerManager();
+		//getters
+		customerManager.add();
+		customerManager.delete();
+		customerManager.update();
+		System.out.println(customerManager.getName());
+		//setter
+		customerManager.setName("James");
+		
+	}
+
+}

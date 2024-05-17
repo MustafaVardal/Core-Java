@@ -1,0 +1,10 @@
+package classesWtihAtrributes;
+
+public class ProductManager {
+	public void add(Product product) {
+		//JDBC codes will be here.
+		
+		// Solid --- > Single responsibility  principle  one class, one method does 1 job. Need to create this class. 
+		System.out.println("Item added. " + product.name);
+	}
+}

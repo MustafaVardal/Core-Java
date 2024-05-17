@@ -1,0 +1,50 @@
+package oop1;
+
+public class Main {
+	public static void main(String[] args) {
+		// String message = "Price ratio: ";
+
+		Product product = new Product();
+		Product product2 = new Product();
+		Product product3 = new Product();
+		
+		
+			// These are coming from database in real life. 
+						// set value
+		product.name= "Eureka WhirlWind Bagless Canister 2.5L Vacuum Cleaner";
+		product.productId = "123456";
+		product.unitPrice = 69.99;
+		product.year = 2024;
+		product.rating = 4.7;
+		product.unitsInStock = 100;
+		product.discount= 17.00;
+		product.imageUrl = "EurekaWhirlWind.svg";
+		
+		product2.name= "Eureka WhirlWind Bagless Canister 2.5L Vacuum Cleaner";
+		product2.productId = "123456";
+		product2.unitPrice = 69.99;
+		product2.year = 2024;
+		product2.rating = 4.7;
+		product2.unitsInStock = 100;
+		product2.discount= 17.00;
+		product2.imageUrl = "EurekaWhirlWind.svg";
+		
+		product3.name= "Eureka WhirlWind Bagless Canister 2.5L Vacuum Cleaner";
+		product3.productId = "123456";
+		product3.unitPrice = 69.99;
+		product3.year = 2024;
+		product3.rating = 4.7;
+		product3.unitsInStock = 100;
+		product3.discount= 17.00;
+		product3.imageUrl = "EurekaWhirlWind.svg";
+		
+		
+		Product[] products = {product, product2, product3};	
+		
+		
+						// get value
+		System.out.println("Name: " + product.name + "\nProduct Id: " + product.productId +
+				"\nPrice: " + product.unitPrice + "\nRating: " + product.rating +
+				"\nDiscount: -%" + product.discount);
+	}
+}

@@ -1,0 +1,24 @@
+package methods2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String message = "Today have good day living outside.";
+		String newMessage = message.substring(0,2);
+		
+		System.out.println(newMessage);
+	}
+
+	public static void add() { // Void --- > Order or command.
+		System.out.println("Added.");
+	}
+
+	public static void delete() {
+		System.out.println("Deleted.");
+
+	}
+
+	public static void update() {
+		System.out.println("Updated.");
+	}
+}

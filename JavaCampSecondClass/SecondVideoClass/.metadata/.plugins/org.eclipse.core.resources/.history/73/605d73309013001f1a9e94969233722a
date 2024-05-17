@@ -1,0 +1,15 @@
+package oop1;
+
+//PascalCase!!! Class name use PascalCase!!!
+
+public class Product {
+	// Fields, attributes are using with camelCase!!
+	String name;
+	String productId;
+	int year;
+	double unitPrice;
+	double discount;
+	String imageUrls[]; // it could be more than one.
+	double rating;
+	int unitsInStock;
+}
