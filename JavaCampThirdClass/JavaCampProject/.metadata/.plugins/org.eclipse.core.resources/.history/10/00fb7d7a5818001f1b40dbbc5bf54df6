@@ -1,0 +1,31 @@
+package javaProject.business;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javaProject.core.logging.ILogger;
+import javaProject.dataAccess.IInstructorDao;
+import javaProject.entities.Instructor;
+
+public class InstructorManager {
+	// Will update for future.
+	
+	private IInstructorDao instructorDao;
+	private ILogger[] loggers;
+	private List<Instructor> allInstructor = new ArrayList<Instructor>();
+	
+	public InstructorManager(IInstructorDao instructorDao, ILogger[] loggers, List<Instructor> allInstructor) {
+	
+		this.instructorDao = instructorDao;
+		this.loggers = loggers;
+		this.allInstructor = allInstructor;
+	}
+
+	public void add(Instructor instructor) throws Exception {
+		if (instructor.getId() <= 0) {
+			throw new Exception("Id is not valid. Please try positive or non zero value.");
+		}
+	}
+	
+	
+}

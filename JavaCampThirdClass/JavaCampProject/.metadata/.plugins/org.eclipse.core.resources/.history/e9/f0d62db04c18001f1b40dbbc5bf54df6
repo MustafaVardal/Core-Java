@@ -1,0 +1,9 @@
+package javaProject.dataAccess;
+
+import java.util.Locale.Category;
+
+public class JdbcCategoryDao {
+	public void add(Category category) {
+		System.out.println("Category element is added by JDBC in Database.");
+	}
+}

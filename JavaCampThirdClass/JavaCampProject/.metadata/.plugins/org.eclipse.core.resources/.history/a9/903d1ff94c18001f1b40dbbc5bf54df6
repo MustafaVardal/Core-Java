@@ -1,0 +1,15 @@
+package javaProject.business;
+
+import javaProject.dataAccess.JdbcCategoryDao;
+import javaProject.entities.Category;;
+
+public class CategoryManager {
+	public void add(Category category) throws Exception {
+		if(category.getName().equals(category.getName())) {
+			throw new Exception("Category's name must not be same.");
+		}
+		
+		JdbcCategoryDao jdbcCategoryDao = new JdbcCategoryDao();
+		jdbcCategoryDao.add(category);
+	}
+}

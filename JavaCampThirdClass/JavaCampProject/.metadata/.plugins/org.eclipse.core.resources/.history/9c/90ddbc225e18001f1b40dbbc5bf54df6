@@ -1,0 +1,61 @@
+package javaProject;
+
+
+import javaProject.business.CategoryManager;
+import javaProject.business.CourseManager;
+import javaProject.business.InstructorManager;
+import javaProject.core.logging.DatabaseLogger;
+import javaProject.core.logging.FileLogger;
+import javaProject.core.logging.ILogger;
+import javaProject.core.logging.MailLogger;
+import javaProject.dataAccess.HibernateDao;
+import javaProject.dataAccess.JdbcDao;
+import javaProject.entities.Category;
+import javaProject.entities.Course;
+import javaProject.entities.Instructor;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		
+		/*
+		 * Course course = new Course(1, "Java", "123",10); Course course2 = new
+		 * Course(1, "Java", "123",0); // is not useful for upper cases./ !!!!!!!Need to
+		 * update. // Course course2 = new Course(2, "Php", "123", 0);
+		 */		//ILogger[] loggers = {new DatabaseLogger(), new FileLogger(), new MailLogger()};
+		
+		
+		
+		/*
+		 * CourseManager courseManager = new CourseManager (new
+		 * HibernateCourseDao(),loggers); courseManager.add(course);
+		 * courseManager.add(course2); //courseManager.add(course);
+		 * //courseManager.add(course2);
+		 */		
+		
+		 
+		 /*
+		 * Instructor instructor = new Instructor(1, "Engin Demirog"); Instructor
+		 * instructor2 = new Instructor(2,"Engin Demirog");
+		 * 
+		 * 
+		 * InstructorManager instructorManager = new InstructorManager(new
+		 * HibernateDao(), loggers); instructorManager.add(instructor);
+		 * instructorManager.add(instructor2);
+		 */
+		 
+		 Category category  = new Category(1, "Backend Programming");
+		 Category category2 = new Category(1, "Backend Programming");
+		 ILogger[] loggers = {new DatabaseLogger(), new FileLogger(), new MailLogger()};
+		 CategoryManager categoryManager = new CategoryManager(new HibernateDao(), loggers);
+		 categoryManager.add(category);
+		 categoryManager.add(category2);
+		 
+		 
+		
+		
+		
+		
+	}
+
+}

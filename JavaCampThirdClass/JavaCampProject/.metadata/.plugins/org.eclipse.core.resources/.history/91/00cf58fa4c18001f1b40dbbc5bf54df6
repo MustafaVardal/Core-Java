@@ -1,0 +1,9 @@
+package javaProject.business;
+
+import javaProject.entities.Instructor;
+
+public class InstructorManager {
+	public void add(Instructor instructor) {
+		
+	}
+}

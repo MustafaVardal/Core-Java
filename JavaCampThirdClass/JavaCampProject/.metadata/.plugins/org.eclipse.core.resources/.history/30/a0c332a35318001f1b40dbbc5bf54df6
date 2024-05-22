@@ -1,0 +1,52 @@
+package javaProject.business;
+
+
+
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javaProject.core.logging.ILogger;
+import javaProject.dataAccess.HibernateCourseDao;
+import javaProject.dataAccess.ICourseDao;
+import javaProject.dataAccess.JdbcCourseDao;
+import javaProject.entities.Course;
+
+public class CourseManager {
+
+	private ICourseDao courseDao;
+	private ILogger[] loggers;
+	
+	
+	public CourseManager(ICourseDao courseDao, ILogger[] loggers) {
+		this.courseDao = courseDao; // Course newlendigi zaman bana bir IcourseDao ver.
+		this.loggers = loggers;
+	}
+
+	public void add(Course course) throws Exception {
+		
+		
+		Set<String> courseNames = new HashSet<>();
+		
+		if (course.getPrice() < 0) {
+			throw new Exception("Course's price must not less than 0.");
+		}
+
+		/*
+		 * if (course.getName().equals(course.getName())) { throw new
+		 * Exception("Course's name must not be same."); }
+		 */
+		
+		if (courseNames.contains(course.getName())) {
+			throw new Exception("Course's name already had it.");
+			
+		}
+
+		courseDao.add(course);
+		
+		for (ILogger iLogger : loggers) {
+			iLogger.log(course.getName());
+		}
+
+	}
+}

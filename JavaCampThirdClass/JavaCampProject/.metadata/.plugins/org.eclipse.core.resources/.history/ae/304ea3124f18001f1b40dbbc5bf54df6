@@ -1,0 +1,34 @@
+package javaProject.business;
+
+import javaProject.dataAccess.HibernateCourseDao;
+import javaProject.dataAccess.ICourseDao;
+import javaProject.dataAccess.JdbcCourseDao;
+import javaProject.entities.Course;
+
+public class CourseManager {
+
+	private ICourseDao courseDao;
+
+	public CourseManager(ICourseDao courseDao) {
+		this.courseDao = courseDao; // Course newlendigi zaman bana bir IcourseDao ver.
+	}
+
+	public void add(Course course) throws Exception {
+		/*
+		 * if(JdbcCourseDao.isValid(course.getName())) {
+		 * 
+		 * }
+		 */
+
+		if (course.getPrice() < 0) {
+			throw new Exception("Course's price must not less than 0.");
+		}
+
+		if (course.getName().equals(course.getName())) {
+			throw new Exception("Course's name must not be same.");
+		}
+
+		courseDao.add(course);
+
+	}
+}

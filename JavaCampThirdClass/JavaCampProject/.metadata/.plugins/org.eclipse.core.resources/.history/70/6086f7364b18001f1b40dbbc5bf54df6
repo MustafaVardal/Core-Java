@@ -1,0 +1,22 @@
+package javaProject.business;
+
+import javaProject.dataAccess.JdbcCourseDao;
+import javaProject.entities.Course;
+
+public class CourseManager {
+	public void add(Course course) throws Exception{
+		/*
+		 * if(JdbcCourseDao.isValid(course.getName())) {
+		 * 
+		 * }
+		 */
+		
+		if(course.getPrice() <0) {
+			throw new Exception("Course price is not less than 0.");
+		}
+		
+		JdbcCourseDao proCourseDao = new JdbcCourseDao();
+		proCourseDao.add(course);
+		
+	}
+}

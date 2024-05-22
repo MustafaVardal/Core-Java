@@ -1,0 +1,16 @@
+package javaProject.dataAccess;
+
+import javaProject.entities.Course;
+import javaProject.entities.Instructor;
+
+public class HibernateDao implements ICourseDao, IInstructorDao {
+	public void add(Course course) {
+		System.out.println("Course element is added by Hibernate in Database.");
+	}
+
+	@Override
+	public void add(Instructor instructor) {
+		
+		System.out.println("Instructor element is added by Hibernate in Database.");
+	}
+}

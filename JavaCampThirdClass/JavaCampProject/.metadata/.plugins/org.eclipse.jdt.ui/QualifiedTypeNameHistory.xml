@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Locale.Category"/>
+    <fullyQualifiedTypeName name="javaProject.dataAccess.JdbcCategoryDao"/>
+    <fullyQualifiedTypeName name="javaProject.entities.Course"/>
+    <fullyQualifiedTypeName name="javaProject.business.CourseManager"/>
+    <fullyQualifiedTypeName name="javaProject.dataAccess.JdbcCourseDao"/>
+    <fullyQualifiedTypeName name="javaProject.dataAccess.HibernateCourseDao"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+    <fullyQualifiedTypeName name="javaProject.core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="java.text.FieldPosition"/>
+    <fullyQualifiedTypeName name="javaProject.core.logging.FileLogger"/>
+    <fullyQualifiedTypeName name="javaProject.core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="javaProject.dataAccess.ICourseDao"/>
+    <fullyQualifiedTypeName name="javaProject.business.InstructorManager"/>
+    <fullyQualifiedTypeName name="javaProject.dataAccess.HibernateInstructorDao"/>
+    <fullyQualifiedTypeName name="javaProject.entities.Instructor"/>
+    <fullyQualifiedTypeName name="javaProject.dataAccess.IInstructorDao"/>
+    <fullyQualifiedTypeName name="javaProject.dataAccess.ICategoryDao"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="javaProject.business.CategoryManager"/>
+    <fullyQualifiedTypeName name="javaProject.dataAccess.HibernateDao"/>
+    <fullyQualifiedTypeName name="javaProject.core.logging.ILogger"/>
+    <fullyQualifiedTypeName name="javaProject.entities.Category"/>
+    <fullyQualifiedTypeName name="javaProject.dataAccess.JdbcDao"/>
+</qualifiedTypeNameHistroy>

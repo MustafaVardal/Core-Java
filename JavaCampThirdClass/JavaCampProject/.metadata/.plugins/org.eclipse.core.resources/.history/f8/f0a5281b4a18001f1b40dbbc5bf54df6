@@ -1,0 +1,9 @@
+package javaProject.business;
+
+import javaProject.entities.Course;
+
+public class CourseManager {
+	public void add(Course course) {
+		
+	}
+}

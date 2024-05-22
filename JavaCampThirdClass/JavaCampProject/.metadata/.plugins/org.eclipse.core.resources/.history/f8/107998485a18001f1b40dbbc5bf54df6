@@ -1,0 +1,9 @@
+package javaProject.dataAccess;
+
+import javaProject.entities.Course;
+
+public class HibernateCourseDao implements ICourseDao {
+	public void add(Course course) {
+		System.out.println("Course element is added by Hibernate in Database.");
+	}
+}

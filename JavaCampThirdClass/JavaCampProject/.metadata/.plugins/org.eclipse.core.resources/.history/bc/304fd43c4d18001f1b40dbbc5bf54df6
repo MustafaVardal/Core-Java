@@ -1,0 +1,21 @@
+package javaProject;
+
+
+import javaProject.business.CourseManager;
+import javaProject.entities.Course;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		
+		Course course1 = new Course(1, "b", "123",0);
+		// Course course2 = new Course(2, "Engin Demirog", "123", 0);
+	
+		
+		CourseManager courseManager = new CourseManager();
+		courseManager.add(course1);
+		//courseManager.add(course2);
+		
+	}
+
+}

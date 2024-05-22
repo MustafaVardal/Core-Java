@@ -1,0 +1,9 @@
+package javaProject.dataAccess;
+
+import javaProject.entities.Course;
+
+public class JdbcCourseDao {
+	public void add(Course course) {
+		System.out.println("Course element is added by JDBC in Database.");
+	}
+}

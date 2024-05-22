@@ -1,0 +1,12 @@
+package javaProject.dataAccess;
+
+import javaProject.entities.Instructor;
+
+public class JdbcInstructorDao implements IInstructorDao{
+
+	@Override
+	public void add(Instructor instructor) {
+		System.out.println("Instructor's element is added by JDBC in Database");
+	}
+
+}

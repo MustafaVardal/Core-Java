@@ -1,0 +1,41 @@
+package javaProject;
+
+
+import javaProject.business.CourseManager;
+import javaProject.business.InstructorManager;
+import javaProject.core.logging.DatabaseLogger;
+import javaProject.core.logging.FileLogger;
+import javaProject.core.logging.ILogger;
+import javaProject.core.logging.MailLogger;
+import javaProject.dataAccess.HibernateCourseDao;
+import javaProject.dataAccess.HibernateInstructorDao;
+import javaProject.dataAccess.JdbcCourseDao;
+import javaProject.entities.Course;
+import javaProject.entities.Instructor;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		
+		Course course = new Course(1, "Java", "123",10);
+		Course course2 = new Course(1, "Java", "123",0); // is not useful for upper cases./ !!!!!!!Need to update. 
+		// Course course2 = new Course(2, "Php", "123", 0);
+		ILogger[] loggers = {new DatabaseLogger(), new FileLogger(), new MailLogger()};
+		
+		
+		
+		CourseManager courseManager = new CourseManager (new HibernateCourseDao(),loggers);
+		courseManager.add(course);
+		courseManager.add(course2);
+		//courseManager.add(course);
+		//courseManager.add(course2);
+		
+		Instructor instructor = new Instructor(1, "Engin Demirog");
+		
+		InstructorManager instructorManager = new InstructorManager(new HibernateInstructorDao(), loggers);
+		instructorManager.add(instructor);
+		
+		
+	}
+
+}
