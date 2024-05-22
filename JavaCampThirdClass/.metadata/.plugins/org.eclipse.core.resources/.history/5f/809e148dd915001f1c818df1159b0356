@@ -1,0 +1,13 @@
+package oppWithNLayeredApp.business;
+
+import oppWithNLayeredApp.entities.Product;
+
+public class ProductManager {
+	// We don't want to see duplicate data.
+	// We said this business domain!
+	// We can see this name like ProductService or ProductServiceImpl
+	
+	public void add(Product product) {
+		
+	}
+}

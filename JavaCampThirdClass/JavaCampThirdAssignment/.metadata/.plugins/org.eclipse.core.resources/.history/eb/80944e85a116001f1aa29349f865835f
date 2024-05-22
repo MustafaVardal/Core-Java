@@ -1,0 +1,13 @@
+
+public class CustomerManager {
+	
+	Customer customer;
+	
+	public CustomerManager(Customer customer) {
+		this.customer = customer;
+	}
+
+	public void Loan() {
+		System.out.println("Customer is saved.");
+	}
+}

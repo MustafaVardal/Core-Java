@@ -1,0 +1,16 @@
+
+public class MilitaryCreditManager implements ICreditManager{
+
+	@Override
+	public void Calculate() {
+		System.out.println("Military Credit is calculated.");
+		
+	}
+
+	@Override
+	public void Save() {
+		System.out.println("Military Credit is saved.");
+		
+	}
+
+}

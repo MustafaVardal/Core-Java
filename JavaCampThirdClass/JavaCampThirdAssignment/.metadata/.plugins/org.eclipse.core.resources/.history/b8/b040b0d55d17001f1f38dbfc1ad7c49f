@@ -1,0 +1,15 @@
+package gettersetter;
+
+public class Product {
+	
+	
+	private int id;
+	private String name;
+	private String description;
+	private double price;
+	private String color;
+	private String code;
+	
+	
+	
+}

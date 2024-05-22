@@ -1,0 +1,15 @@
+package gettersetter;
+
+public class Main {
+	public static void main(String[] args) {
+		Product product = new Product();
+		product.setId(1);
+		product.setName("Oven");
+		product.setPrice(599.99);
+		product.setColor("Blue");
+		product.setCode("1A");
+		product.setDescription("Samsung");
+	}
+	
+
+}

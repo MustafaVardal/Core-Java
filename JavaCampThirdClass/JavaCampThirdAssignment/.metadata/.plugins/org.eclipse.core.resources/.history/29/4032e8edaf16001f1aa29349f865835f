@@ -1,0 +1,14 @@
+
+public abstract class BaseCreditManager implements ICreditManager{
+	
+	
+	// Abstract siniflar bizim icin ortak operasyonlari tutar ama ayni zamanda 
+	// tamamlanmamis yani abstract siniflari da tutar.
+	
+	
+	public abstract void Calculate();
+	
+	public void Save() {
+		System.out.println("Saved.");
+	}
+}

@@ -1,0 +1,11 @@
+package abstractClasses;
+
+public class TransGenderPlayers extends BasePlayers{
+
+	@Override
+	public void color() {
+		System.out.println("There is no color for people!");
+		
+	}
+
+}

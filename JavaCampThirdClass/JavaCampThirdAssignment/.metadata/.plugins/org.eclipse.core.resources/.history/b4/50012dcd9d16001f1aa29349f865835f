@@ -1,0 +1,11 @@
+
+public class CreditManager {
+	public void Calculate() {
+		System.out.println("Calculated!");
+	}
+	
+	public void Loan() {
+		System.out.println("Loan approval");
+		
+	}
+}

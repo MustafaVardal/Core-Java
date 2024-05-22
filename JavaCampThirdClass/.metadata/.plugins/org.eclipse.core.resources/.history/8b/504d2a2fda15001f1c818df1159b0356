@@ -1,0 +1,17 @@
+package oppWithNLayeredApp;
+
+import oppWithNLayeredApp.business.ProductManager;
+import oppWithNLayeredApp.entities.Product;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		Product product1 = new Product(1, "IPhone XR", 1000);
+		
+		// We still don't see the api  thats why userinterface will deal with Business unit. 
+		ProductManager productManager = new  ProductManager();
+		productManager.add(product1);
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package interfaces;
+
+public class CustomerManager {
+
+	ICustomerDal customerDal;
+	public void add() { // You will add the parameters. 
+		// Business layer codes.
+		customerDal.add();
+	}
+}

@@ -1,0 +1,25 @@
+
+public class BusinessCustomer extends Customer{
+	public String taxNumber;
+
+	public BusinessCustomer() {
+		super();
+	}
+
+	public BusinessCustomer(String taxNumber) {
+		super();
+		this.taxNumber = taxNumber;
+	}
+
+	public String getTaxNumber() {
+		return taxNumber;
+	}
+
+	public void setTaxNumber(String taxNumber) {
+		this.taxNumber = taxNumber;
+	}
+	
+	
+	
+	
+}

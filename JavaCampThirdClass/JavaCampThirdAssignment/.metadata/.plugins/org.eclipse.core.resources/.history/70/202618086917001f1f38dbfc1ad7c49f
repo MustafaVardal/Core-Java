@@ -1,0 +1,23 @@
+package polymorphism;
+
+public class CustomerManager {
+	private BaseLogger baseLogger;
+	
+	public CustomerManager(BaseLogger baseLogger) {
+		this.baseLogger = baseLogger;
+	}
+	
+	public void create() {
+		System.out.println("Creative: ");
+		DatabaseLogger databaseLogger = new DatabaseLogger();
+		databaseLogger.Log("New logger.");
+	}
+	
+	public void add() {
+		System.out.println("Item Added ");
+	}
+	
+	public void delete() {
+		System.out.println("Deletion is working. ");
+	}
+}

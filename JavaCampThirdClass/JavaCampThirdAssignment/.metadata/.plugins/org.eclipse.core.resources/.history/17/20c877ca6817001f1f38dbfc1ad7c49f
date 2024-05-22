@@ -1,0 +1,15 @@
+package polymorphism;
+
+public class CustomerManager {
+	public void create() {
+		System.out.println("Creative: ");
+	}
+	
+	public void add() {
+		System.out.println("Item Added ");
+	}
+	
+	public void delete() {
+		System.out.println("Deletion is working. ");
+	}
+}

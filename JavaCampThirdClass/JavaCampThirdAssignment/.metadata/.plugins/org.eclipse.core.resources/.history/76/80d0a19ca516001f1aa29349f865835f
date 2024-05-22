@@ -1,0 +1,23 @@
+
+public class IndividualCustomer extends Customer{
+	private String nationality;
+
+	public IndividualCustomer() {
+		super();
+	}
+
+	public IndividualCustomer(String nationality) {
+		super();
+		this.nationality = nationality;
+	}
+
+	public String getNationality() {
+		return nationality;
+	}
+
+	public void setNationality(String nationality) {
+		this.nationality = nationality;
+	}
+	
+	
+}	

@@ -1,0 +1,10 @@
+package gettersetter;
+
+public class Main {
+	
+	Product product = new Product();
+	product.
+	
+	
+
+}

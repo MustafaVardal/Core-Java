@@ -1,0 +1,7 @@
+package abstractClasses;
+
+public abstract class BasePlayers {
+	public void calculate() {
+		System.out.println("Your point: 100");
+	}
+}

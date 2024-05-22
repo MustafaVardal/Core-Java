@@ -1,0 +1,7 @@
+package abstractDemo;
+
+public abstract class BaseProgrammingManager {
+	public abstract void getData() ;
+	
+	
+}

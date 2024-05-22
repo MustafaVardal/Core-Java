@@ -1,0 +1,6 @@
+
+public class CustomerManager{
+  public void Loan(int id, String firstName, String lastName, String nationality) {
+	  System.out.println("Customer is saved.");
+  }
+}

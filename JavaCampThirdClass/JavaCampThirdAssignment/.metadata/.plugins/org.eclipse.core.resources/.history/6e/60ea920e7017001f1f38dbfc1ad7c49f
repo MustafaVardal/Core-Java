@@ -1,0 +1,17 @@
+package abstractClasses;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		BasePlayers[] basePlayers = {new ManPlayers(), new WomanPlayers(), new KidsPlayers()};
+		for (BasePlayers basePlayers2 : basePlayers) {
+			basePlayers2.calculate();
+			basePlayers2.color();
+			basePlayers2.gameOver();
+		}
+		
+		
+	}
+
+}

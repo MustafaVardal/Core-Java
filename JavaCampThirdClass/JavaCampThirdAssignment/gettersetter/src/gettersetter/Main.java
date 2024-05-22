@@ -1,0 +1,27 @@
+package gettersetter;
+
+public class Main {
+	public static void main(String[] args) {
+		Product product = new Product(); // Overloading
+		product.setId(1);
+		product.setName("Oven");
+		product.setPrice(599.99);
+		product.setColor("Blue");
+		product.setDescription("Samsung");
+
+		// Constructor block! Alternative way to use in main!
+		Product product2 = new Product(2, "Oven", "Kitchen Aid", 600.45, "White"); // Overloading
+
+		ProductManager productManager = new ProductManager();
+		productManager.add(product);
+		productManager.delete(product);
+		productManager.delete(product);
+
+		System.out.printf("Product's code: " + product.getCode());
+
+		// Constructor block output.
+		System.out.println("\nProduct's code in constructor with parameters: " + product2.getCode());
+
+	}
+
+}

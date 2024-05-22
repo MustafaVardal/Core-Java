@@ -1,0 +1,15 @@
+package gettersetter;
+
+public class ProductManager {
+	public void Add(Product product) {
+		System.out.println("Product added in database." + product.getName());
+	}
+	
+	public void Delete(Product product) {
+		System.out.println("Product deleted in database." + product.getName());
+	}
+	
+	public void Update(Product product) {
+		System.out.println("Product updated in database." + product.getName() );
+	}
+}

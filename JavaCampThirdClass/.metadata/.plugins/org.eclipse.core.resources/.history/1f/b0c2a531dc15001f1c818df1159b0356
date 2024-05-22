@@ -1,0 +1,7 @@
+package oppWithNLayeredApp.dataAccess;
+
+public class HibernateProductDao {
+	
+	// regularly we couldnot able to copy codes. but we create a simulation for our practices.
+
+}

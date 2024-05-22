@@ -1,0 +1,11 @@
+package overriding;
+
+public class BaseCreditManager {
+	public double calculation(double cost) {
+		return cost *1.18; // Use the interest calculation here.  
+	}
+	
+	public final String getName(String name) {
+		return name + "" + name;
+	}
+}

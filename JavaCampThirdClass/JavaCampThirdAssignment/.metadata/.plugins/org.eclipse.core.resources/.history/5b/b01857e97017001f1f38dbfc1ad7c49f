@@ -1,0 +1,11 @@
+package abstractDemo;
+
+public class PythonProgrammingManager extends BaseProgrammingManager{
+
+	@Override
+	public void getData() {
+		
+		
+	}
+
+}

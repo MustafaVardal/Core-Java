@@ -1,0 +1,35 @@
+
+public class CustomerManager {
+
+	private Customer customer;
+	ICreditManager iCreditManager;
+	
+	
+	public CustomerManager() {
+
+	}
+
+	public CustomerManager(Customer customer, ICreditManager iCreditManager) {
+		this.customer = customer;
+		this.iCreditManager = iCreditManager;
+	}
+
+	public void Save() {
+		System.out.println("Customer is saved." + customer.getClass());
+	}
+
+	public void Delete() {
+		System.out.println("Customer is deleted." + customer.getClass());
+	}
+	
+	public void GiveCredit() {
+		
+	}
+}
+/*
+ * public void Save() { System.out.println("Customer is saved." +
+ * this.customer.getFirstName() ); }
+ * 
+ * public void Delete() { System.out.println("Customer is deleted." +
+ * this.customer.getFirstName()); } }
+ */

@@ -1,0 +1,14 @@
+package staticDemo;
+
+public class ProductValidator {
+	public static boolean isValid(Product product) { // static ifadesi bir nesnenin ornegini olusturur. Bir kere olusur ve butun kullanicilar onu 1 kere kullabilir.
+		if (product.price > 0 && !product.name.isEmpty()) {
+			return true;
+		}
+
+		else {
+			return false;
+		}
+
+	}
+}

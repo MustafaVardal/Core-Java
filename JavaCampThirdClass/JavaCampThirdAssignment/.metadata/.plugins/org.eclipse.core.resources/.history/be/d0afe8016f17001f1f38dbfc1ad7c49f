@@ -1,0 +1,11 @@
+package abstractClasses;
+
+public abstract class BasePlayers {
+	public abstract void color();
+	
+	public void calculate() {
+		System.out.println("Your point: 100");
+	}
+	
+	
+}

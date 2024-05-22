@@ -1,0 +1,23 @@
+
+public class CustomerManager {
+	
+	private Customer customer;
+	
+	
+	
+	public CustomerManager() {
+		
+	}
+
+	public CustomerManager(Customer customer) {
+		this.customer = customer;
+	}
+
+	public void Svae() {
+		System.out.println("Customer is saved." + this.customer.getFirstName() );
+	}
+	
+	public void Delete() {
+		System.out.println("Customer is deleted." + this.customer.getFirstName());
+	}
+}

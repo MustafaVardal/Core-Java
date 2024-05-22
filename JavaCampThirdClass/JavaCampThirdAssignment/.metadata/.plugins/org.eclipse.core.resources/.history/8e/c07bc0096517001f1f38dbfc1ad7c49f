@@ -1,0 +1,10 @@
+package inheritanceDemo;
+
+public class BasePlanManager {
+	
+	public void promotion() {
+		
+		System.out.println("You will get promotion. ");
+	}
+
+}

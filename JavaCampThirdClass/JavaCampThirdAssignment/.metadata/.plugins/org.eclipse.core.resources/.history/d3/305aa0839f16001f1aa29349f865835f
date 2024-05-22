@@ -1,0 +1,11 @@
+
+public class CreditManager { // Business layer!
+	public void Calculate() {
+		System.out.println("Calculated!");
+	}
+	
+	public void Loan(Customer customer) {
+		System.out.println("Loan approval");
+		
+	}
+}

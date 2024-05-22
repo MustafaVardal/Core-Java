@@ -1,0 +1,27 @@
+package gettersetter;
+
+public class Main {
+	public static void main(String[] args) {
+		Product product = new Product();
+		product.setId(1);
+		product.setName("Oven");
+		product.setPrice(599.99);
+		product.setColor("Blue");
+		product.setDescription("Samsung");
+		
+		// Constructor block!
+		Product product2 = new Product(2,"Oven","Kitchen Aid", 600.45, "White");
+		
+		
+		ProductManager productManager = new ProductManager();
+		productManager.add(product);
+		productManager.delete(product);
+		productManager.delete(product);
+		
+		System.out.printf("Product's code: "+ product.getCode());
+		
+		
+	}
+	
+
+}

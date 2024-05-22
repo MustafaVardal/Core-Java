@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.entities.Product"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.dataAccess.ProductDao"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.dataAccess.HibernateProductDao"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.core.logging.FileLogger"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.business.ProductManager"/>
+    <fullyQualifiedTypeName name="oppWithNLayeredApp.dataAccess.JdbcProductDao"/>
+</qualifiedTypeNameHistroy>

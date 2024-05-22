@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="CreditManager"/>
+    <fullyQualifiedTypeName name="IndividualCustomer"/>
+    <fullyQualifiedTypeName name="BusinessCustomer"/>
+    <fullyQualifiedTypeName name="CustomerManager"/>
+    <fullyQualifiedTypeName name="Customer"/>
+    <fullyQualifiedTypeName name="MilitaryCreditManager"/>
+    <fullyQualifiedTypeName name="TeacherCreditManager"/>
+    <fullyQualifiedTypeName name="ICreditManager"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Thread.Builder.OfVirtual"/>
+</qualifiedTypeNameHistroy>

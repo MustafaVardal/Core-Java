@@ -1,0 +1,7 @@
+package inheritanceDemo;
+
+public class PlanUI {
+	public void planGetPromotion(BasePlanManager basePlanManager) {
+		System.out.println("Catch your promotion.");
+	}
+}

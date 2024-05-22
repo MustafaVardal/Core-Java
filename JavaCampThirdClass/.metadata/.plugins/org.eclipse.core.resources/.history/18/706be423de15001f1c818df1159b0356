@@ -1,0 +1,24 @@
+package oppWithNLayeredApp;
+
+import oppWithNLayeredApp.business.ProductManager;
+import oppWithNLayeredApp.dataAccess.JdbcProductDao;
+import oppWithNLayeredApp.entities.Product;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		Product product1 = new Product(1, "IPhone XR", 1000); // User add all infos.
+		//Product product2 = new Product(1, "IPhone 12", 9); // We will get an error.
+		// We still don't see the api  thats why userinterface will deal with Business unit. 
+		ProductManager productManager = new  ProductManager(new JdbcProductDao());
+		productManager.add(product1);
+		// ProductManager productManager2  = new ProductManager();
+		// productManager2.add(product2); Exception in thread "main" java.lang.Exception: Product shouldn't be less then 10$.
+		
+		
+		// Add infos here and check our rules in ProductManager class.
+		// If it is good for our rules, go and add database. 
+
+	}
+
+}

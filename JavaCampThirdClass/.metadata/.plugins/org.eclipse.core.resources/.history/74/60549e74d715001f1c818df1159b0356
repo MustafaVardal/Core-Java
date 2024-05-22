@@ -1,0 +1,15 @@
+package oppWithNLayeredApp.dataAccess;
+
+public class JdbcProductDao {
+
+	// JDBCPRODUCTDAO means that JDBCPRODUCT DATA ACCESS OBJECT CLASS. It is super
+	// popular to use modern java world.
+	// jdbc is one of the methods which is using for data access object.
+	// hibernate also is a method.
+	// jpa also is a method.
+	// lastest version of data access object method is jpa.
+
+	public void add() {
+
+	}
+}

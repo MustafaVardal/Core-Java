@@ -1,0 +1,49 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		/*
+		 * // All is working in stack. Primitive int i = 10; int b = 20; i = b;
+		 * 
+		 * System.out.println(i); System.out.println(b); System.out.println("");
+		 * 
+		 * b = 200;
+		 * 
+		 * System.out.println(i); System.out.println(b);
+		 * 
+		 * 
+		 * // All is working with together(Stack and Heap). References
+		 * System.out.println(""); int[] a = { 1, 3, 5 }; int[] c = { 10, 20, 30 };
+		 * 
+		 * a = c; // Garbage collector is working hard. :) a[0] = 150;
+		 * System.out.println(a[0]); System.out.println(c[0]);
+		 */
+
+		/*
+		 * CreditManager creditManager = new CreditManager(); creditManager.Calculate();
+		 * //creditManager.Loan(customer);
+		 * 
+		 * Customer customer = new Customer(); // Declared the example. // Declared
+		 * instance. It means declared the object in heap! customer.setId(1);
+		 * customer.setFirstName("Lucian"); customer.setLastName("Deamon");
+		 * customer.setCity("Liverpool");
+		 */
+
+		IndividualCustomer individualCustomer = new IndividualCustomer();
+		individualCustomer.setLastName("England");
+
+		/*
+		 * CustomerManager customerManager = new CustomerManager(customer);
+		 * customerManager.Save();
+		 */
+		CustomerManager customerManager2 = new CustomerManager();
+		customerManager2.Save();
+		customerManager2.Delete();
+
+		// System.out.println(customer.getId() + customer.getFirstName() +
+		// customer.getLastName() + customer.getNationality());
+
+	}
+
+}
