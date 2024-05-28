@@ -1,0 +1,21 @@
+package kodlama.io.canditateSkills.dataAccess.abstracts;
+
+import java.util.List;
+
+import kodlama.io.canditateSkills.entities.ProgrammingLanguage;
+
+public interface ProgrammingLanguageRepository {
+
+	List<ProgrammingLanguage> getAll();
+
+	void add(ProgrammingLanguage programmingLanguage);
+
+	void delete(int id);
+
+	void update(ProgrammingLanguage programmingLanguage);
+
+	ProgrammingLanguage getOneById(int id); 
+
+
+
+}

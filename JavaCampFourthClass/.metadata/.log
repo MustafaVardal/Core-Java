@@ -1,0 +1,84 @@
+!SESSION 2024-05-25 07:19:53.553 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=20.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-25 07:20:32.441
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-25 07:20:32.720
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-25 07:22:47.989
+!MESSAGE Logback config file: C:\Users\Mustafa\OneDrive\Desktop\Core Java\JavaCampFourthClass\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-25 07:22:56.712
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mustafa'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.oracle.oci.eclipse.plugin 4 0 2024-05-25 08:09:49.483
+!MESSAGE C:\Users\Mustafa\.oci\config (The system cannot find the path specified)
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Mustafa\.oci\config (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at com.oracle.bmc.ConfigFileReader.parse(ConfigFileReader.java:133)
+	at com.oracle.bmc.auth.ConfigFileAuthenticationDetailsProvider.<init>(ConfigFileAuthenticationDetailsProvider.java:68)
+	at com.oracle.oci.eclipse.account.AuthProvider.createProvider(AuthProvider.java:43)
+	at com.oracle.oci.eclipse.account.AuthProvider.getProvider(AuthProvider.java:54)
+	at com.oracle.oci.eclipse.sdkclients.ADBInstanceClient.createADBInstanceClient(ADBInstanceClient.java:150)
+	at com.oracle.oci.eclipse.sdkclients.ADBInstanceClient.<init>(ADBInstanceClient.java:126)
+	at com.oracle.oci.eclipse.sdkclients.ADBInstanceClient.getInstance(ADBInstanceClient.java:132)
+	at com.oracle.oci.eclipse.Activator.stop(Activator.java:65)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:893)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:885)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1071)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:392)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:695)
+	at org.eclipse.osgi.container.Module.stop(Module.java:554)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2115)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1985)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:222)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:695)
+	at org.eclipse.osgi.container.Module.stop(Module.java:554)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:240)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+!ENTRY com.oracle.oci.eclipse.plugin 4 0 2024-05-25 08:09:49.484
+!MESSAGE Disposing bundle
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "com.oracle.bmc.auth.AuthenticationDetailsProvider.getTenantId()" because "this.provider" is null
+	at com.oracle.oci.eclipse.account.AuthProvider.createProvider(AuthProvider.java:47)
+	at com.oracle.oci.eclipse.account.AuthProvider.getProvider(AuthProvider.java:54)
+	at com.oracle.oci.eclipse.sdkclients.ADBInstanceClient.createADBInstanceClient(ADBInstanceClient.java:150)
+	at com.oracle.oci.eclipse.sdkclients.ADBInstanceClient.<init>(ADBInstanceClient.java:126)
+	at com.oracle.oci.eclipse.sdkclients.ADBInstanceClient.getInstance(ADBInstanceClient.java:132)
+	at com.oracle.oci.eclipse.Activator.stop(Activator.java:65)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:893)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:885)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1071)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:392)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:695)
+	at org.eclipse.osgi.container.Module.stop(Module.java:554)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2115)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1985)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:222)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:695)
+	at org.eclipse.osgi.container.Module.stop(Module.java:554)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:240)
+	at java.base/java.lang.Thread.run(Thread.java:1623)

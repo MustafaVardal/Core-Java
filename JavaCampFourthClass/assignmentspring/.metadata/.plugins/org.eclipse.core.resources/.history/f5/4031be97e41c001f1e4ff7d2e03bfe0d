@@ -1,0 +1,39 @@
+package kodlama.io.rentACar.dataAccess.concretes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.tomcat.util.openssl.SSL_set_info_callback.cb.Function;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import kodlama.io.rentACar.dataAccess.abstracts.BrandRespository;
+import kodlama.io.rentACar.entities.concretes.Brand;
+
+
+
+@Repository
+public class InMemoryBrandRepository implements BrandRespository {
+
+	List<Brand> brands;
+	
+	
+	public InMemoryBrandRepository() { // We are not in database that's why we are working on the memory. So we create
+										// these new objects. Regularly, we will work with database.
+		
+		brands = new ArrayList<Brand>();
+		brands.add(new Brand(1, "Bmw"));
+		brands.add(new Brand(2, "Audi"));
+		brands.add(new Brand(3, "Mercedes"));
+		brands.add(new Brand(4, "Fiat"));
+		brands.add(new Brand(5, "Pontiac"));
+		
+	}
+
+	@Override
+	public List<Brand> getAll() {
+		return brands;
+	}
+	
+
+}

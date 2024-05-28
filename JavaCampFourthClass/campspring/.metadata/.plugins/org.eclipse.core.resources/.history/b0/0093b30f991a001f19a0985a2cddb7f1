@@ -1,0 +1,37 @@
+package kodlama.io.rentACar.dataAccess.concretes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import kodlama.io.rentACar.dataAccess.abstracts.IBrandRepository;
+import kodlama.io.rentACar.entities.concretes.Brand;
+
+
+@Repository //  bu sinif bir dataAccess nesnesidir. 
+public class InMemoryBrandRepository implements IBrandRepository {
+
+	List<Brand> brands; // Burada yazilmasinin sebebi asagidaki list operasyonunda ulasilmak
+						// istenmesidir. Yani globaldir.
+						// Interfaceler de referans tutabildigi icin list uzerinden gidebiliriz.
+						// Burada polimorfizm vardir. Normalde sunu kullaniyoruz.
+						// ArrayList<Brand> brands;
+
+	public InMemoryBrandRepository() {
+		brands = new ArrayList<Brand>(); /// Elimizde bos bir liste olustu. Veri tabani olmadigi icin suanda. Unit test
+											/// yapiliyor.
+		brands.add(new Brand(1, "Bmw"));
+		brands.add(new Brand(2, "Audi"));
+		brands.add(new Brand(3, "Mercedes"));
+		brands.add(new Brand(4, "Dodge"));
+		brands.add(new Brand(5, "Mustang"));
+	}
+
+	@Override
+	public List<Brand> getAll() {
+
+		return brands;
+	}
+
+}

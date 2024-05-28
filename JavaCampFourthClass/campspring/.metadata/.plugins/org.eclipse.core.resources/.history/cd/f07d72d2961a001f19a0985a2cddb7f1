@@ -1,0 +1,13 @@
+package kodlama.io.rentACar.dataAccess.abstracts;
+
+import java.util.List;
+
+import kodlama.io.rentACar.entities.concretes.Brand;
+
+public interface IBrandRepository {
+		// Veri tabanindaki isleri yapicak siniflari repository ismi verilir. Dao olarakda gorulur.
+	
+	List<Brand> getAll();
+	//Brand[] getAll(); Arraylerden yaralanmaz gunumuzde koleksiyonlardan yararlanir cunku ekleme maliyeti azdir.
+	
+}

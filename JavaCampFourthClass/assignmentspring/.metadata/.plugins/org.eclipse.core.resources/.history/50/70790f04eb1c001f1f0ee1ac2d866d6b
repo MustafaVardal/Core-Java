@@ -1,0 +1,58 @@
+package kodlama.io.canditateSkills.dataAccess.concretes;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
+import kodlama.io.canditateSkills.dataAccess.abstracts.ProgrammingLanguageRepository;
+import kodlama.io.canditateSkills.entities.ProgrammingLanguage;
+
+public class InMemoryProgrammingLanguageRespository implements ProgrammingLanguageRepository {
+	
+	List<ProgrammingLanguage> programmingLanguages;
+	HashSet<ProgrammingLanguage> existedElement = new HashSet<ProgrammingLanguage>();
+	
+	
+	public InMemoryProgrammingLanguageRespository() {
+		programmingLanguages = new ArrayList<ProgrammingLanguage>();
+		programmingLanguages.add(new ProgrammingLanguage(0,"C#"));
+		programmingLanguages.add(new ProgrammingLanguage(1,"Java"));
+		programmingLanguages.add(new ProgrammingLanguage(2,"Python"));
+	}
+
+	@Override
+	public List<ProgrammingLanguage> getAll() {
+		return programmingLanguages;
+	}
+
+	@Override
+	public boolean add(ProgrammingLanguage programmingLanguage) {
+		for (ProgrammingLanguage element : programmingLanguages) {
+			if(programmingLanguage.getName().equals(element.getName())) {
+				System.out.println("Error: This element(" + element + ") already existed.");
+			} else {
+				programmingLanguages.addAll(existedElement);
+			}
+		}
+		
+	}
+
+	@Override
+	public void delete(ProgrammingLanguage programmingLanguage) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(ProgrammingLanguage programmingLanguage) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getById(ProgrammingLanguage programmingLanguage) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

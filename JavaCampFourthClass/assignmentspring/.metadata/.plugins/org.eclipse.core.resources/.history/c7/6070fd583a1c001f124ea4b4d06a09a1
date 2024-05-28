@@ -1,0 +1,29 @@
+package kodlama.io.rentACar.business.concretes;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import kodlama.io.rentACar.business.abstracts.BrandService;
+import kodlama.io.rentACar.dataAccess.abstracts.BrandRespository;
+import kodlama.io.rentACar.entities.concretes.Brand;
+
+public class BrandManager implements BrandService{
+	
+	private BrandRespository brandRespository;
+	
+	
+	@Autowired
+	public BrandManager(BrandRespository brandRespository) {
+		this.brandRespository = brandRespository;
+	}
+
+
+
+	@Override
+	public List<Brand> getAll() {
+		// to create a brand which requirements we need to use. 
+		return brandRespository.getAll();
+	}
+
+}
