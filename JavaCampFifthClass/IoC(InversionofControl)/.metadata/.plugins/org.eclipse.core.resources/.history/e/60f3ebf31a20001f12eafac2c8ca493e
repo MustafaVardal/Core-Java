@@ -1,0 +1,26 @@
+package springIntro;
+
+public class CustomerManager implements ICustomerService{
+	
+	
+	private ICustomerDal customerDal;
+	
+	
+	// Constructor injection/
+	// public CustomerManager(ICustomerDal customerDal) {
+	//	this.customerDal = customerDal;
+	// }
+	// Customer Manager parametre olarak bir customerDal istiyor. 
+
+
+
+	public void add() {
+		/* is kurallari */
+		// Newlemeden yapilmasi icin interface olusturucagiz.
+		/*
+		 * CustomerDal customerDal = new CustomerDal();
+		 *  customerDal.add();
+		 */
+		customerDal.add();
+	}
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="springIntro.CustomerManager"/>
+    <fullyQualifiedTypeName name="springIntro.CustomerDal"/>
+    <fullyQualifiedTypeName name="springIntro.MySqlCustomerDal"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="springIntro.ICustomerDal"/>
+    <fullyQualifiedTypeName name="springIntro.ICustomerService"/>
+    <fullyQualifiedTypeName name="com.springdemo.ICustomerDal"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.springdemo.demo.IocConfig"/>
+    <fullyQualifiedTypeName name="com.springdemo.demo.ICustomerDal"/>
+    <fullyQualifiedTypeName name="com.springdemo.demo.MsSqlCustomerDal"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.springdemo.demo.ICustomerService"/>
+    <fullyQualifiedTypeName name="com.springdemo.demo.CustomerManager"/>
+    <fullyQualifiedTypeName name="com.springdemo.demo.MySqlCustomerDal"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+</qualifiedTypeNameHistroy>

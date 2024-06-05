@@ -1,0 +1,17 @@
+package com.springdemo.demo;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+//@SpringBootApplication
+public class Main {
+
+	public static void main(String[] args) {
+		
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+		ICustomerDal customerDal = context.getBean("database",ICustomerDal.class);
+		customerDal.add();
+		
+		//SpringApplication.run(DemoApplication.class, args);
+	}
+
+}

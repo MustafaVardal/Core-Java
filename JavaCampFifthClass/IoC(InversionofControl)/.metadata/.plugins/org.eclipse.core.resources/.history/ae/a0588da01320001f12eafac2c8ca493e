@@ -1,0 +1,10 @@
+package springIntro;
+
+public class CustomerManager {
+	public void add() {
+		/* is kurallari */
+		
+		CustomerDal customerDal = new CustomerDal();
+		customerDal.add();
+	}
+}

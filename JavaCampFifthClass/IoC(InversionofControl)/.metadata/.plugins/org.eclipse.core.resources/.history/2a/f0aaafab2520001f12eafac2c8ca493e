@@ -1,0 +1,5 @@
+package com.springdemo.demo;
+
+public class IocConfig {
+
+}
