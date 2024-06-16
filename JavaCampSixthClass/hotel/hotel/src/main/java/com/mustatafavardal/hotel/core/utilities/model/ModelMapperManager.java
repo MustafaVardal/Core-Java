@@ -9,12 +9,12 @@ import lombok.AllArgsConstructor;
 @Service
 @AllArgsConstructor
 public class ModelMapperManager implements ModelMapperService{
+	
 	private ModelMapper modelMapper;
 	
 	
 	@Override
 	public ModelMapper forRequests() {
-		
 		this.modelMapper.getConfiguration().setAmbiguityIgnored(true).setMatchingStrategy(MatchingStrategies.STANDARD);
 		return this.modelMapper;
 		

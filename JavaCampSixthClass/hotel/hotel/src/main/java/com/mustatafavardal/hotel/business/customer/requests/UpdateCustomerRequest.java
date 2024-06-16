@@ -14,7 +14,6 @@ public class UpdateCustomerRequest {
 
 	private String name;
 
-
 	private String email;
 
 }

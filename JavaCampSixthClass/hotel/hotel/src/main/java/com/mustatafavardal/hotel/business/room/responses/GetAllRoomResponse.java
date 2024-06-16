@@ -9,11 +9,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 public class GetAllRoomResponse {
+
 	private int id;
 
 	private String roomNumber;
-
+	
 	private String entryTime;
-
+	
 	private String exitTime;
+	
+	private String customerName;
 }
