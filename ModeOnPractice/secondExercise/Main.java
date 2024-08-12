@@ -9,6 +9,7 @@ public class Main {
         Outputs outputs = new Outputs(numbers, calculation);
         outputs.print();
 
+        System.out.println("artik benim branchimde.");
 
     }
 }
